@@ -54,6 +54,8 @@ def main() -> None:
     ) 
     args = parser.parse_args() 
     total = organizar_carpeta(args.carpeta, simulacion=args.dry_run) 
-    print(f"Total de archivos procesados: {total}") 
+    print(f"Total de archivos procesados: {total}")
+
+
 if __name__ == "__main__": 
     main()
